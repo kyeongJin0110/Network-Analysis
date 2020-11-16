@@ -11,7 +11,7 @@ import collections
 
 from scipy.stats import pearsonr 
 
-os.environ["CUDA_VISIBLE_DEVICES"]= "0" # gpu 0
+os.environ["CUDA_VISIBLE_DEVICES"]= "0"
 
 def draw(G, pos, measures, measure_name):
     

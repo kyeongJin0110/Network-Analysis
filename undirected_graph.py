@@ -8,7 +8,7 @@ import sys
 
 import collections
 
-os.environ["CUDA_VISIBLE_DEVICES"]= "0" # gpu 0
+os.environ["CUDA_VISIBLE_DEVICES"]= "0"
 
 def draw(G, pos, measures, measure_name):
     
