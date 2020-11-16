@@ -1,4 +1,5 @@
 # Network-Analysis
+#### To make undirected/directed graph and anaysis graphs using NetworkX packages.
 
 1. Network generation
     - Choose two Wikipedia pages containing sufficiently long text (e.g., cat), and construct a network for
@@ -23,7 +24,7 @@
     PageRank, closeness centrality, betweenness centrality, etc.
     - Which nodes (i.e., words) have large or small centrality values? Why?
     - Examine pair-wise correlation between different centrality measures (e.g., closeness vs. PageRank).
-    
+
 4. Comparison
     - Compare the above analysis results for the two networks. Discuss similarities and dissimilarities.
 
