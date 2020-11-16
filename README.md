@@ -9,6 +9,7 @@
     n1=n2=1, n1=n2=2, n1 =2 & n2=0, etc.). As an extreme, you can put edges between all word pairs in a
     sentence.
     - Ignore capital/small cases. You can also simply ignore punctuation marks, math symbols, etc.
+
 2. Network topology analysis (undirected)
     - Examine the degrees of the nodes, including mean degree, density, and degree distribution. Discuss
     the results.
@@ -16,11 +17,13 @@
     and the smallest eigenvalue is zero. Check the second smallest eigenvalue.
     - Examine the clustering coefficient.
     - Draw the network. Do you find any interesting observations?
+
 3. Node analysis (directed)
     - Obtain various centrality measures of the nodes, including eigenvector centrality, Katz centrality,
     PageRank, closeness centrality, betweenness centrality, etc.
     - Which nodes (i.e., words) have large or small centrality values? Why?
     - Examine pair-wise correlation between different centrality measures (e.g., closeness vs. PageRank).
+    
 4. Comparison
     - Compare the above analysis results for the two networks. Discuss similarities and dissimilarities.
 
