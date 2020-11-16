@@ -1,6 +1,8 @@
 # Network-Analysis
 #### To make undirected/directed graph and anaysis graphs using NetworkX packages.
 
+## Main description
+
 1. Network generation
     - Choose two Wikipedia pages containing sufficiently long text (e.g., cat), and construct a network for
     each page (only the main content part, and not references, ‘see also’, external links, etc.).
@@ -32,14 +34,14 @@
 
 - Ubuntu 16.04
 - Python 3.6
-- Network 2.3.0
+- network 2.3.0
 
 ## Testing
 
 ```bash
 # for testing undirected_graph.py
-pip install undirected_graph.py
+python3 undirected_graph.py
 
 # for testing directed_graph.py
-pip install directed_graph.py
+python3 directed_graph.py
 ```
